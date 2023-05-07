@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <h1>ForumFilms</h1>
+      <nav class="nav-container">
+        <ul>
+          <a href="index.html">
+            <li>Inicio</li>
+          </a>
+          <br />
+          <a href="#">
+            <li>Películas</li>
+          </a>
+          <br />
+          <a href="#">
+            <li>Series</li>
+          </a>
+          <br />
+          <a href="#">
+            <li>Búsqueda</li>
+          </a>
+          <br />
+          <!-- link relativo -->
+          <a href="#">
+            <li>Contactos</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Contactos</h1>
+        <table border="1">
+          <tr>
+            <th colspan="2">Horarios de atención</th>
+          </tr>
+          <tr>
+            <th>Días</th>
+            <th>Horarios</th>
+          </tr>
+          <tr class="dia-lunes">
+            <td><b>Lunes</b></td>
+            <td><i>8:00 a 12:00</i></td>
+          </tr>
+          <tr class="dia-martes">
+            <td><b>Martes</b></td>
+            <td><i>8:00 a 12:00</i></td>
+          </tr>
+          <tr class="dia-miercoles">
+            <td><b>Miércoles</b></td>
+            <td><i>8:00 a 12:00</i></td>
+          </tr>
+          <tr class="dia-jueves">
+            <td><b>Jueves</b></td>
+            <td><i>8:00 a 12:00</i></td>
+          </tr>
+          <tr class="dia-viernes">
+            <td><b>Viernes</b></td>
+            <td><i>8:00 a 12:00</i></td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <form action="#" class="form-container">
+          <div>
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              id="email"
+              placeholder="Ingresar email"
+              required="required"
+            />
+          </div>
+          <div>
+            <label for="name">Usuario:</label>
+            <input
+              type="text"
+              id="username"
+              placeholder="Ingresar usuario"
+              required="required"
+            />
+          </div>
+          <div>
+            <textarea
+              id="consulta"
+              cols="40"
+              rows="5"
+              placeholder="Ingresar consulta"
+              required="required"
+            ></textarea>
+          </div>
+          <input type="submit" />
+          <input type="reset" />
+        </form>
+      </section>
+    </main>
+    <footer class="footer-container">Derechos @2023</footer>
+  </body>
+</html>
